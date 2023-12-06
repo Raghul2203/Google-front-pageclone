@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+body {
+    paddin:0;
+    margin:0;
+    justify-content:center;
+    align-item:center;
+    display:flex;
+}
+header{
+    letter-spacing:-3px;
+}
+span{
+    position:relative;
+    top:60px;
+    left:0px;
+    font-size:75px;
+    font-family: 'Noto Sans JP', sans-serif;
+        
+}
+span:nth-child(1){
+    color:#2E9AFE;
+}
+span:nth-child(2){
+    color:#DF0101;
+}
+span:nth-child(3){
+    color:#FACC2E;
+}
+span:nth-child(4){
+    color:#2E9AFE;
+}
+span:nth-child(5){
+    color:#298A08;
+}
+span:nth-child(6){
+    color:#DF0101;
+    transform:rotateZ(30deg);
+}
+input{
+    position:absolute ;
+    top:190px;
+    width:330px;
+    height:42px;
+    align-item:center;
+    border-radius:100px;
+    background-color:#F2F2F2;
+    color:black;
+    border:none;
+    align-text:center;
+    display:flex;
+    cursor:pointer;
+}
+.material-icons{
+    position:absolute;
+    top:200px;
+    left:330px;
+}
+#home{
+    position:absolute;
+    top:15px;
+    left:15px;
+}
+
+#tab{
+    position:absolute;
+    top:20px;
+    left:310px;
+}
+.profile{
+    position:absolute;
+    top:20px;
+    left:260px;
+ 
+   width:23px;
+    height:23px;
+    border-radius:100px; background-image:url("https://i.ibb.co/xMCVmZ5/IMG-20210609-192855.jpg");
+    background-position:100px;
+    text-transform:small-caps;
+    
+}
+#dots{
+    position:absolute;
+    top:20px;
+    left:350px;
+}
+#dots:hover{
+    position:absolute;
+    top:0;
+    left:140px;
+    width:250px;
+    height:600px;
+    background-color:white;
+    box-shadow:0 0 5px black;
+    border-radius:5px;  
+}
+
+#dot-top{
+    position:absolute;
+    
+}
